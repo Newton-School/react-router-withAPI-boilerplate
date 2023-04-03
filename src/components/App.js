@@ -11,11 +11,7 @@ const App = () => {
   return (
     <div id="main">
       <Navbar />
-      <div className='container'>
-        <Route path="/"  />
-        <Route path="/top-10" />
-        <Route path="/contact"  />
-      </div>
+      <div className='container'></div>
     </div>
   )
 }
